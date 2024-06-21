@@ -1,0 +1,24 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "resource": "documents",
+        "operation": "getAll"
+      },
+      "name": "Paperless NGX",
+      "type": "n8n-nodes-base.paperlessNgx",
+      "typeVersion": 1,
+      "position": [
+        450,
+        300
+      ],
+      "credentials": {
+        "paperlessNgxApi": {
+          "baseUrl": "https://paperless.dogiakos.com",
+          "apiToken": "<API TOKEN>"
+        }
+      }
+    }
+  ],
+  "connections": {}
+}
